@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+            android:id="@+id/textView"
+            android:padding="0dp"
+            android:text="@string/behnazkhalili"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.097" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.612"/>
+    <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="729dp"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+            android:id="@+id/textView2"
+            android:layout_width="247dp"
+            android:padding="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Behnaz"
+            android:textSize="30sp"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.693" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.195"/>
+    <TextView
+            android:id="@+id/textView3"
+            android:layout_width="180dp"
+            android:padding="0dp"
+            android:text="@string/studentNo"
+            android:textSize="26sp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.138"
+            app:layout_constraintVertical_bias="0.758"/>
+    <ImageView
+            android:id="@+id/barcodeImageView"
+            android:layout_width="246dp"
+            android:layout_height="68dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.096"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            app:srcCompat="@drawable/barcode" app:layout_constraintVertical_bias="0.898"/>
+    <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="71dp"
+            android:layout_height="65dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.367"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.138"
+            app:srcCompat="@drawable/jac1"/>
+    <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="4"
+            android:text="Property of John Abbott\nCollege. This card must be\n surrended to College\nauthorities upon request"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.945"
+            app:layout_constraintVertical_bias="0.506"/>
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="176dp"
+            android:layout_height="202dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.965"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.119"
+            app:srcCompat="@drawable/behnaz"/>
+    <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:background="#1D38CC"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="-10dp" tools:layout_editor_absoluteX="0dp"/>
+    <TextView
+            android:id="@+id/multiLineTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:maxLines="3"
+            android:text="CEGEP\nJOHN ABBOTTE\nCOLLEGE"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="DuplicateIds" tools:layout_editor_absoluteY="3dp" tools:layout_editor_absoluteX="78dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

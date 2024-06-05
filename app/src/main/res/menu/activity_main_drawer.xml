@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_studentcard"
+                android:icon="@drawable/baseline_card_membership_24"
+                android:title="@string/student_card"/>
+        <item
+                android:id="@+id/nav_bmiCalc"
+                android:icon="@drawable/baseline_personal_injury_24"
+                android:title="@string/bmi_calculator"/>
+        <item
+                android:id="@+id/nav_areacalc"
+                android:icon="@drawable/baseline_calculate_24"
+                android:title="@string/area_calculator"/>
+    </group>
+</menu>
